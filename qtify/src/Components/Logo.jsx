@@ -8,9 +8,12 @@ export default function Logo() {
             src={LogoImage}
             alt="logo"
             style={{
-                alignItems: "center",
-                margin: "auto 0",
-                paddingLeft: "1rem",
+                width: "67px",
+                height: "34px",
+                marginRight: "auto",
+                marginLeft: "20px",
+                marginTop: "20px",
+                marginBottom: "20px",
             }}
         />
         // <Box component="img" src={LogoImage} alt="logo" sx={{ px: "2rem" }} />

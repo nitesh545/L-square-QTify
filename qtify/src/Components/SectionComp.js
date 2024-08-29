@@ -7,7 +7,7 @@ import SwiperComp from "./SwiperComp";
 import GridComp from "./GridComp";
 
 export default function SectionComp({ album, name, hideButton, text }) {
-    let [isCollapsed, setIsCollapsed] = useState(hideButton);
+    let [isCollapsed, setIsCollapsed] = useState(!hideButton);
 
     let handleClick = () => {
         isCollapsed ? setIsCollapsed(false) : setIsCollapsed(true);

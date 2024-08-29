@@ -11,10 +11,10 @@ export default function Logo() {
                 width: "67px",
                 height: "34px",
                 marginRight: "auto",
-                marginLeft: "0px",
+                marginLeft: "32px",
                 marginTop: "20px",
                 marginBottom: "20px",
-                paddingLeft: "10px",
+                paddingLeft: "32px",
             }}
         />
         // <Box component="img" src={LogoImage} alt="logo" sx={{ px: "2rem" }} />

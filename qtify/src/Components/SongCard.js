@@ -2,7 +2,7 @@ import { Card, CardContent, CardMedia, Chip, Typography } from "@mui/material";
 import React from "react";
 // import image from "../Assets/img_5.jpg";
 
-export default function SongCard({ image, follows, title }) {
+export default function SongCard({ image, follows, title, text }) {
     return (
         <div>
             <Card variant="elevation" elevation={0} sx={{ margin: "1rem" }}>
@@ -13,7 +13,7 @@ export default function SongCard({ image, follows, title }) {
                 />
                 <CardContent>
                     <Chip
-                        label={follows}
+                        label={`${follows} ${text}`}
                         variant="filled"
                         sx={{ justifyContent: "left" }}
                     />

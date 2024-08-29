@@ -4,14 +4,14 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import CustomButton from "./Components/Button";
 import SongCard from "./Components/SongCard";
-import SectionComp from "./Components/SectionComp";
+import MultiSectionsComp from "./Components/MultiSectionsComp";
 
 function App() {
     return (
         <div className="App">
             <Navbar />
             <Hero />
-            <SectionComp />
+            <MultiSectionsComp />
         </div>
     );
 }

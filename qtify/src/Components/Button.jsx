@@ -11,6 +11,7 @@ export default function CustomButton({ text, clicked }) {
                 color: "#34c94b",
                 mx: "2rem",
                 fontFamily: "Poppins",
+                textTransform: "lowercase",
             }}
             onClick={clicked ? clicked : null}
         >

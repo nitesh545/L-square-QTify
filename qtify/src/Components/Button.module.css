@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
-  --background-color: #000000;
-  --text-color: #00ff00;
+    --background-color: #000000;
+    --text-color: #00ff00;
 }
 
 .custombutton {
-  font-family: 'Poppins', sans-serif;
-  background-color: var(--background-color) !important;
-  color: var(--text-color) !important;
-  border-radius: 8px !important;
-  cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    text-transform: lowercase;
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+    border-radius: 8px !important;
+    cursor: pointer;
 }

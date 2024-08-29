@@ -175,8 +175,8 @@ export default function Searchbar() {
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="search"
-              inputProps={{ 'aria-label': 'search' }}
+              placeholder="search for songs"
+              inputProps={{ 'aria-label': 'search for songs' }}
             />
           </Search>
     );

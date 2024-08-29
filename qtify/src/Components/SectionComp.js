@@ -28,7 +28,7 @@ export default function SectionComp({ album, name, hideButton, text }) {
                 </Typography>
                 {!hideButton ? (
                     <CustomButton
-                        text={isCollapsed ? "Show all" : "Collapse"}
+                        text={isCollapsed ? "show all" : "Collapse"}
                         clicked={handleClick}
                     />
                 ) : null}

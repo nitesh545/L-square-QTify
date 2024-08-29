@@ -7,7 +7,7 @@ export default function Logo() {
         <img
             src={LogoImage}
             alt="logo"
-            style={{ marginTop: 20, marginBottom: 20, marginLeft: 32 }}
+            style={{ alignItems: "center", marginLeft: 32 }}
         />
         // <Box component="img" src={LogoImage} alt="logo" sx={{ px: "2rem" }} />
     );
